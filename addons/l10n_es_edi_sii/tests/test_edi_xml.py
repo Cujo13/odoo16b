@@ -446,13 +446,13 @@ class TestEdiXmls(TestEsEdiCommon):
                 'PeriodoLiquidacion': {'Ejercicio': '2019', 'Periodo': '01'},
                 'FacturaExpedida': {
                     'TipoFactura': 'F1',
-                    'ClaveRegimenEspecialOTrascendencia': '02',
+                    'ClaveRegimenEspecialOTrascendencia': '01',
                     'DescripcionOperacion': 'manual',
                     'TipoDesglose': {
                         'DesgloseTipoOperacion': {
                             'PrestacionServicios': {
                                 'NoSujeta': {
-                                    'ImporteTAIReglasLocalizacion': 100.0,
+                                    'ImportePorArticulos7_14_Otros': 100.0,
                                 },
                             },
                             'Entrega': {
